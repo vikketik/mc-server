@@ -1,0 +1,558 @@
+[29May2025 15:33:29.835] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.172, --fml.fmlVersion, 4.0.39, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[29May2025 15:33:29.840] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 23.0.2+7-58
+[29May2025 15:33:29.844] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 23.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[29May2025 15:33:30.225] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[29May2025 15:33:30.325] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/vvalg/Downloads/MC%20modded%20Server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[29May2025 15:33:30.649] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.172:server]
+[29May2025 15:33:30.683] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.172-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries\net\neoforged\neoforge\21.1.172\neoforge-21.1.172-universal.jar]], reader: mod manifest]
+[29May2025 15:33:30.704] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "appleskin-neoforge-mc1.21-3.0.5.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.712] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ash_api-neoforge-21.1.0.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.720] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "borderless-neoforge-1.21.4-1.7.3-all.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.733] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "buildersjetpackmod-3.1-1.21.1.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.740] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "camera-neoforge-1.21.1-1.0.20.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.750] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "carryon-neoforge-1.21.1-2.2.2.11.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.759] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Clumps-neoforge-1.21.1-19.0.0.1.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.768] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "coroutil-neoforge-1.21.0-1.3.8.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.779] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "corpse-neoforge-1.21.1-1.1.5.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.791] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "corpsecurioscompat-1.21.1-NeoForge-2.2.2.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.806] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create-1.21.1-6.0.4.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.812] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "create_oxidized-0.1.3.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.820] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "cupboard-1.21-2.9.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.826] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "curios-neoforge-9.5.1+1.21.1.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.832] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "emi-1.1.22+1.21.1+neoforge.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.839] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "emi_enchanting-0.1.2+1.21+neoforge.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.847] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "emi_loot-0.7.6+1.21+neoforge.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.855] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "FarmersDelight-1.21.1-1.2.7.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.861] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fzzy_config-0.7.0+1.21+neoforge.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.873] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gjeb-neoforge-1.21.1-1.3.0.40.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.880] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "gpumemleakfix-1.21-1.8.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.886] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Jade-1.21.1-NeoForge-15.10.0.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.891] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "JadeAddons-1.21.1-NeoForge-6.1.0.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.897] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "jei-1.21.1-neoforge-19.21.0.247.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.905] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinforforge-5.8.0-all.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.912] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "MouseTweaks-neoforge-mc1.21-2.26.1.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.918] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "NaturesCompass-1.21.1-3.0.3-neoforge.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.924] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "ok_zoomer-neo-10.0.0-beta.10.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.929] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "reeses-sodium-options-neoforge-1.8.3+mc1.21.4.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.935] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "shuffle-neoforge-21.1.0.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.940] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "simple_weather-1.0.13.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.945] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "smoothchunk-1.21-4.1.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.953] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "sodium-neoforge-0.6.13+mc1.21.1.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.959] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "watut-neoforge-1.21.0-1.2.7.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.966] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Xaeros_Minimap_25.2.6_NeoForge_1.21.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:30.973] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "XaerosWorldMap_1.39.9_NeoForge_1.21.jar" [locator: {mods folder locator at C:\Users\vvalg\Downloads\MC modded Server\mods}, reader: mod manifest]
+[29May2025 15:33:31.449] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 24 dependencies adding them to mods collection
+[29May2025 15:33:31.449] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.172-universal.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.450] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-renderer-api-v1-3.4.0+9c40919e19.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.450] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "tomlkt-jvm-0.3.7.jar" [parent: fzzy_config-0.7.0+1.21+neoforge.jar, locator: jarinjar]
+[29May2025 15:33:31.450] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-api-base-0.4.42+d1308ded19.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.450] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.caffeinemc.sodium-neoforge-0.6.13+mc1.21.1-service.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.450] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-jdk8-1.10.2.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar]
+[29May2025 15:33:31.451] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Ponder-NeoForge-1.21.1-1.0.46.jar" [parent: create-1.21.1-6.0.4.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.451] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.172.jar" [parent: neoforge-21.1.172-universal.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.451] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk7-2.1.20.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar]
+[29May2025 15:33:31.452] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-jdk8-2.1.20.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar]
+[29May2025 15:33:31.452] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "thedarkcolour.kfflang-5.8.0.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.452] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "Registrate-MC1.21-1.3.0+62.jar" [parent: create-1.21.1-6.0.4.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.452] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-rendering-data-attachment-v1-0.3.48+73761d2e19.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.452] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "thedarkcolour.kfflib-5.8.0.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.453] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-core-jvm-1.8.1.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar]
+[29May2025 15:33:31.453] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "wrench_wrapper-0.6.2.jar" [parent: ok_zoomer-neo-10.0.0-beta.10.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.453] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "thedarkcolour.kffmod-5.8.0.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.453] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-stdlib-2.1.20.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar]
+[29May2025 15:33:31.453] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlin-reflect-2.1.20.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar]
+[29May2025 15:33:31.454] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "flywheel-neoforge-1.21.1-1.0.2.jar" [parent: create-1.21.1-6.0.4.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.454] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-serialization-json-jvm-1.8.1.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar]
+[29May2025 15:33:31.454] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "kotlinx-coroutines-core-jvm-1.10.2.jar" [parent: kotlinforforge-5.8.0-all.jar, locator: jarinjar]
+[29May2025 15:33:31.454] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "jankson-1.2.3.jar" [parent: fzzy_config-0.7.0+1.21+neoforge.jar, locator: jarinjar]
+[29May2025 15:33:31.455] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fabric-block-view-api-v2-1.0.10+9afaaf8c19.jar" [parent: sodium-neoforge-0.6.13+mc1.21.1.jar, locator: jarinjar, reader: mod manifest]
+[29May2025 15:33:31.457] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		AppleSkin 3.0.5+mc1.21 (appleskin)
+		Ash API 21.1.0 (ash_api)
+		Borderless Window 1.21.4-1.7.2 (borderlesswindow)
+		Builder's Jetpack Mod 3.1-1.21.1 (buildersjetpackmod)
+		Camera Mod 1.21.1-1.0.20 (camera)
+		Carry On 2.2.2 (carryon)
+		Clumps 19.0.0.1 (clumps)
+		CoroUtil 1.21.0-1.3.8 (coroutil)
+		Corpse 1.21.1-1.1.5 (corpse)
+		Corpse Curios Compatibility 2.2.2 (corpsecurioscompat)
+		Create 6.0.4 (create)
+		Create: Oxidized 0.1.3 (create_oxidized)
+		Cupboard mod 2.9 (cupboard)
+		Curios API 9.5.1+1.21.1 (curios)
+		EMI 1.1.22+1.21.1+neoforge (emi)
+		EMI Enchanting 0.1.2+1.21+neoforge (emi_enchanting)
+		EMI Loot 0.7.6+1.21+neoforge (emi_loot)
+		Farmer's Delight 1.2.7 (farmersdelight)
+		Flywheel 1.0.2 (flywheel)
+		Forgified Fabric API Base 0.4.42+d1308ded19 (fabric_api_base)
+		Forgified Fabric BlockView API (v2) 1.0.10+9afaaf8c19 (fabric_block_view_api_v2)
+		Forgified Fabric Renderer API (v1) 3.4.0+9c40919e19 (fabric_renderer_api_v1)
+		Forgified Fabric Rendering Data Attachment (v1) 0.3.48+73761d2e19 (fabric_rendering_data_attachment_v1)
+		Fzzy Config 0.7.0+1.21+neoforge (fzzy_config)
+		GJEB (GammaJustExtremeBright) 1.3.0.40 (gjeb)
+		Gpu memory leak fix 1.8 (gpumemleakfix)
+		Jade 15.10.0+neoforge (jade)
+		Jade Addons 6.1.0+neoforge (jadeaddons)
+		Just Enough Items 19.21.0.247 (jei)
+		Kotlin For Forge 5.8.0 (kotlinforforge)
+		Minecraft 1.21.1 (minecraft)
+		Mouse Tweaks 2.26.1 (mousetweaks)
+		Nature's Compass 1.21.1-3.0.2-neoforge (naturescompass)
+		NeoForge 21.1.172 (neoforge)
+		Ok Zoomer 10.0.0-beta.10 (ok_zoomer)
+		Ponder 1.0.46 (ponder)
+		Reese's Sodium Options 1.8.3+mc1.21.4 (reeses_sodium_options)
+		Shuffle 21.1.0 (shuffle)
+		Simple Weather 1.0.13 (simple_weather)
+		Smoothchunk mod 4.1 (smoothchunk)
+		Sodium 0.6.13+mc1.21.1 (sodium)
+		What Are They Up To 1.21.0-1.2.7 (watut)
+		Wrench Wrapper 0.6.2 (wrench_wrapper)
+		Xaero's Minimap 25.2.6 (xaerominimap)
+		Xaero's World Map 1.39.9 (xaeroworldmap)
+[29May2025 15:33:31.840] [main/INFO] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod script-engine for [xaerominimap, xaeroworldmap]
+[29May2025 15:33:33.058] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29May2025 15:33:33.061] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[29May2025 15:33:33.125] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[29May2025 15:33:33.188] [main/WARN] [mixin/]: Reference map 'smoothchunk.refmap.json' for smoothchunk.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.203] [main/WARN] [mixin/]: Reference map 'ash_api.refmap.json' for ash_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.204] [main/WARN] [mixin/]: Reference map 'reeses-sodium-options.refmap.json' for reeses-sodium-options.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.204] [main/WARN] [mixin/]: Reference map 'gpumemleakfix.refmap.json' for gpumemleakfix.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.205] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.205] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.214] [main/WARN] [mixin/]: Reference map 'ponder.refmap.json' for ponder.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.215] [main/WARN] [mixin/]: Reference map 'create.refmap.json' for create.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.216] [main/WARN] [mixin/]: Reference map 'clumps.refmap.json' for clumps.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.217] [main/WARN] [mixin/]: Reference map 'cupboard.refmap.json' for cupboard.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.232] [main/INFO] [Sodium/]: Loaded configuration file for Sodium: 43 options available, 0 override(s) found
+[29May2025 15:33:33.318] [main/WARN] [mixin/]: Reference map 'carryon.refmap.json' for carryon.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.320] [main/WARN] [mixin/]: Reference map 'jadeaddons.refmap.json' for jadeaddons.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.320] [main/WARN] [mixin/]: Reference map 'watut.refmap.json' for watut.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.323] [main/WARN] [mixin/]: Reference map 'shuffle.refmap.json' for shuffle.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.324] [main/WARN] [mixin/]: Reference map 'camera.refmap.json' for camera.mixins.json could not be read. If this is a development environment you can ignore this message
+[29May2025 15:33:33.695] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/entity/layers/CapeLayer (java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.CapeLayer)
+[29May2025 15:33:33.695] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.entity.layers.CapeLayer was not found buildersjetpackmod.mixins.json:RemoveCapeLayerRendering from mod buildersjetpackmod
+[29May2025 15:33:33.862] [main/WARN] [mixin/]: Error loading class: journeymap/client/render/map/MapRenderer (java.lang.ClassNotFoundException: journeymap.client.render.map.MapRenderer)
+[29May2025 15:33:33.862] [main/WARN] [mixin/]: @Mixin target journeymap.client.render.map.MapRenderer was not found create.mixins.json:compat.journeymap.MapRendererAccessor from mod create
+[29May2025 15:33:33.928] [main/WARN] [mixin/]: Error loading class: org/embeddedt/embeddium/impl/gui/EmbeddiumGameOptionPages (java.lang.ClassNotFoundException: org.embeddedt.embeddium.impl.gui.EmbeddiumGameOptionPages)
+[29May2025 15:33:33.930] [main/WARN] [mixin/]: Error loading class: org/embeddedt/embeddium/impl/gui/EmbeddiumGameOptionPages (java.lang.ClassNotFoundException: org.embeddedt.embeddium.impl.gui.EmbeddiumGameOptionPages)
+[29May2025 15:33:33.933] [main/WARN] [mixin/]: Error loading class: org/embeddedt/embeddium/impl/gui/EmbeddiumGameOptionPages (java.lang.ClassNotFoundException: org.embeddedt.embeddium.impl.gui.EmbeddiumGameOptionPages)
+[29May2025 15:33:34.230] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[29May2025 15:33:43.013] [modloading-worker-0/INFO] [coroutil/]: neo forge loader environment detected
+[29May2025 15:33:43.061] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[29May2025 15:33:43.068] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.172, for MC 1.21.1
+[29May2025 15:33:43.078] [modloading-worker-0/INFO] [com.leclowndu93150.corpsecurioscompat.Main/]: Hello from Corpse Curios Compat!
+[29May2025 15:33:43.091] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.4 initializing! Commit hash: 8d3eda53e4de913a966c9daf050e3fb893b5d638
+[29May2025 15:33:44.161] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.neoforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[29May2025 15:33:44.808] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config :emi_loot_config in 1228ms
+[29May2025 15:33:47.621] [modloading-sync-worker/INFO] [net.damarvinci.buildersjetpackmod.Config/]: Builder Jetpack Config loaded
+[29May2025 15:33:47.622] [modloading-sync-worker/INFO] [net.damarvinci.buildersjetpackmod.Config/]: Fuel Consumption Interval: 30
+[29May2025 15:33:47.622] [modloading-sync-worker/INFO] [net.damarvinci.buildersjetpackmod.Config/]: Sounds enabled: true
+[29May2025 15:33:47.622] [modloading-sync-worker/INFO] [net.damarvinci.buildersjetpackmod.Config/]: Particles enabled: true
+[29May2025 15:33:47.643] [modloading-worker-0/INFO] [com.gpumemleakfix.Gpumemleakfix/]: gpumemleakfix mod initialized
+[29May2025 15:33:47.797] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[29May2025 15:33:47.798] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[29May2025 15:33:47.799] [modloading-sync-worker/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[29May2025 15:33:47.799] [modloading-sync-worker/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[29May2025 15:33:47.986] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [camera] Starting version check at https://update.maxhenkel.de/neoforge/camera
+[29May2025 15:33:48.002] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.vanilla.VanillaPlugin
+[29May2025 15:33:48.039] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.universal.UniversalPlugin
+[29May2025 15:33:48.044] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.debug.DebugPlugin
+[29May2025 15:33:48.045] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.core.CorePlugin
+[29May2025 15:33:48.046] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.access.AccessibilityPlugin
+[29May2025 15:33:48.046] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from de.maxhenkel.camera.integration.waila.PluginCamera
+[29May2025 15:33:48.046] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from snownee.jade.addon.JadeAddonsBase
+[29May2025 15:33:48.053] [modloading-worker-0/INFO] [snownee.jade.Jade/]: Start loading plugin from de.maxhenkel.corpse.integration.waila.PluginCorpse
+[29May2025 15:33:48.269] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[29May2025 15:33:48.481] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/vvalg/Downloads/MC%20modded%20Server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23153!/assets/.mcassetsroot' uses unexpected schema
+[29May2025 15:33:48.482] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/vvalg/Downloads/MC%20modded%20Server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23153!/data/.mcassetsroot' uses unexpected schema
+[29May2025 15:33:48.543] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [camera] Found status: BETA Current: 1.21.1-1.0.20 Target: 1.21.1-1.0.20
+[29May2025 15:33:48.545] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.21.1&ml=neoforge
+[29May2025 15:33:48.594] [main/INFO] [com.simibubi.create.Create/]: Created 141 recipes which will be injected into the game
+[29May2025 15:33:48.603] [main/INFO] [com.simibubi.create.Create/]: Created 0 tags which will be injected into the game
+[29May2025 15:33:48.738] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [clumps] Found status: BETA Current: 19.0.0.1 Target: 19.0.0.1
+[29May2025 15:33:48.739] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [gjeb] Starting version check at https://api.u-team.info/update/gjeb_neoforge.json
+[29May2025 15:33:48.886] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [gjeb] Found status: UP_TO_DATE Current: 1.3.0.40 Target: null
+[29May2025 15:33:48.886] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/neoforge/corpse
+[29May2025 15:33:48.913] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [corpse] Found status: BETA Current: 1.21.1-1.1.5 Target: 1.21.1-1.1.5
+[29May2025 15:33:49.984] [Worker-Main-3/INFO] [emi_loot/]: parsing loot tables
+[29May2025 15:33:50.134] [Worker-Main-3/INFO] [emi_loot/]: finished parsing loot tables
+[29May2025 15:33:50.856] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/milling/wild_beetroots
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:red_dye","count":1}]; No key id in MapLike[{"item":"minecraft:red_dye","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:red_dye","count":1}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:red_dye"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:beetroot_seeds","count":1}]; No key id in MapLike[{"item":"minecraft:beetroot_seeds","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:beetroot_seeds","count":1}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:beetroot_seeds"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:50.934] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/milling/wild_tomatoes
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:green_dye","count":1}]; No key id in MapLike[{"item":"minecraft:green_dye","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:green_dye","count":1}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:green_dye"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"item":"farmersdelight:tomato_seeds","count":1}]; No key id in MapLike[{"item":"farmersdelight:tomato_seeds","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"farmersdelight:tomato_seeds","count":1}]; Second: Failed to parse either. First: Not a JSON object: "farmersdelight:tomato_seeds"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:50.948] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/milling/wild_rice
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"farmersdelight:straw","count":1,"chance":0.5}]; No key id in MapLike[{"item":"farmersdelight:straw","count":1,"chance":0.5}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"farmersdelight:straw","count":1,"chance":0.5}]; Second: Failed to parse either. First: Not a JSON object: "farmersdelight:straw"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"item":"farmersdelight:rice","count":1}]; No key id in MapLike[{"item":"farmersdelight:rice","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"farmersdelight:rice","count":1}]; Second: Failed to parse either. First: Not a JSON object: "farmersdelight:rice"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:50.954] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/milling/wild_carrots
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:lime_dye","count":1,"chance":0.1}]; No key id in MapLike[{"item":"minecraft:lime_dye","count":1,"chance":0.1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:lime_dye","count":1,"chance":0.1}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:lime_dye"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:light_gray_dye","count":2}]; No key id in MapLike[{"item":"minecraft:light_gray_dye","count":2}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:light_gray_dye","count":2}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:light_gray_dye"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:50.966] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/filling/chocolate_pie
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"farmersdelight:chocolate_pie"}]; No key id in MapLike[{"item":"farmersdelight:chocolate_pie"}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"farmersdelight:chocolate_pie"}]; Second: Failed to parse either. First: Not a JSON object: "farmersdelight:chocolate_pie"; Second: Compat cannot be deserialized; Failed to parse either. First: Failed to parse either. First: Not a json array: {"fluidTag":"forge:chocolate","amount":500}; Second: No key tag in MapLike[{"fluidTag":"forge:chocolate","amount":500}]; No key item in MapLike[{"fluidTag":"forge:chocolate","amount":500}]; Second: Input does not contain a key [type]: MapLike[{"fluidTag":"forge:chocolate","amount":500}]
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:50.971] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/milling/rice_panicle
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"farmersdelight:straw","count":1}]; No key id in MapLike[{"item":"farmersdelight:straw","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"farmersdelight:straw","count":1}]; Second: Failed to parse either. First: Not a JSON object: "farmersdelight:straw"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"item":"farmersdelight:rice","count":1}]; No key id in MapLike[{"item":"farmersdelight:rice","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"farmersdelight:rice","count":1}]; Second: Failed to parse either. First: Not a JSON object: "farmersdelight:rice"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:50.976] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/mixing/tomato_sauce_from_mixing
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"farmersdelight:tomato_sauce","count":1}]; No key id in MapLike[{"item":"farmersdelight:tomato_sauce","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"farmersdelight:tomato_sauce","count":1}]; Second: Failed to parse either. First: Not a JSON object: "farmersdelight:tomato_sauce"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:50.983] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/milling/wild_potatoes
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:lime_dye","count":1,"chance":0.1}]; No key id in MapLike[{"item":"minecraft:lime_dye","count":1,"chance":0.1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:lime_dye","count":1,"chance":0.1}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:lime_dye"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:purple_dye","count":2}]; No key id in MapLike[{"item":"minecraft:purple_dye","count":2}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:purple_dye","count":2}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:purple_dye"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:51.019] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/milling/wild_cabbages
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:yellow_dye","count":1}]; No key id in MapLike[{"item":"minecraft:yellow_dye","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:yellow_dye","count":1}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:yellow_dye"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"item":"farmersdelight:cabbage_seeds","count":1}]; No key id in MapLike[{"item":"farmersdelight:cabbage_seeds","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"farmersdelight:cabbage_seeds","count":1}]; Second: Failed to parse either. First: Not a JSON object: "farmersdelight:cabbage_seeds"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:51.035] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/milling/wild_onions
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:lime_dye","count":1,"chance":0.1}]; No key id in MapLike[{"item":"minecraft:lime_dye","count":1,"chance":0.1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:lime_dye","count":1,"chance":0.1}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:lime_dye"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:magenta_dye","count":3,"chance":0.2}]; No key id in MapLike[{"item":"minecraft:magenta_dye","count":3,"chance":0.2}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:magenta_dye","count":3,"chance":0.2}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:magenta_dye"; Second: Compat cannot be deserialized; Failed to parse either. First: No key amount in MapLike[{"item":"minecraft:magenta_dye","count":1}]; No key id in MapLike[{"item":"minecraft:magenta_dye","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"minecraft:magenta_dye","count":1}]; Second: Failed to parse either. First: Not a JSON object: "minecraft:magenta_dye"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:51.036] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/mixing/pie_crust_from_mixing
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"farmersdelight:pie_crust","count":1}]; No key id in MapLike[{"item":"farmersdelight:pie_crust","count":1}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"farmersdelight:pie_crust","count":1}]; Second: Failed to parse either. First: Not a JSON object: "farmersdelight:pie_crust"; Second: Compat cannot be deserialized; Failed to parse either. First: Failed to parse either. First: Not a json array: {"fluidTag":"forge:milk","amount":250}; Second: No key tag in MapLike[{"fluidTag":"forge:milk","amount":250}]; No key item in MapLike[{"fluidTag":"forge:milk","amount":250}]; Second: Input does not contain a key [type]: MapLike[{"fluidTag":"forge:milk","amount":250}]
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:51.053] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:integration/create/mixing/cabbage_slice_from_mixing
+com.google.gson.JsonParseException: Failed to parse either. First: No key amount in MapLike[{"item":"farmersdelight:cabbage_leaf","count":2}]; No key id in MapLike[{"item":"farmersdelight:cabbage_leaf","count":2}]; Second: Failed to parse either. First: No key id in MapLike[{"item":"farmersdelight:cabbage_leaf","count":2}]; Second: Failed to parse either. First: Not a JSON object: "farmersdelight:cabbage_leaf"; Second: Compat cannot be deserialized
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23100!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:762) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:204) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:32) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.39/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.39.jar%2359!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.4.jar%2364!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.4/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.4.jar%2364!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+[29May2025 15:33:51.062] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 3153 recipes
+[29May2025 15:33:51.327] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2685 advancements
+[29May2025 15:33:51.343] [main/INFO] [Curios API/]: Loaded 10 curio slots
+[29May2025 15:33:51.347] [main/INFO] [Curios API/]: Loaded 1 curio entities
+[29May2025 15:33:53.088] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[29May2025 15:33:53.089] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29May2025 15:33:53.089] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29May2025 15:33:53.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29May2025 15:33:53.211] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 127.0.0.1:25565
+[29May2025 15:33:53.353] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[29May2025 15:33:53.402] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[29May2025 15:33:53.402] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[29May2025 15:33:53.403] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[29May2025 15:33:53.403] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[29May2025 15:33:53.486] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29May2025 15:33:54.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29May2025 15:33:55.158] [Worker-Main-10/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29May2025 15:33:55.261] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[29May2025 15:33:55.312] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 565 ms
+[29May2025 15:33:55.312] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.887s)! For help, type "help"
+[29May2025 15:33:55.370] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[29May2025 15:33:55.381] [Server thread/INFO] [net.damarvinci.buildersjetpackmod.BuildersJetpackMod/]: Thanks for playing with Builders Jetpack Mod!
+[29May2025 15:33:55.388] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[29May2025 15:37:16.338] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Vikketik[/127.14.155.148:56067] logged in with entity id 5 at (201.06290458575697, 83.0, -243.15765501782766)
+[29May2025 15:37:16.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vikketik joined the game
+[29May2025 15:37:45.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Vikketik a server operator
+[29May2025 15:37:55.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vikketik: Set own game mode to Creative Mode]
+[29May2025 15:38:32.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vikketik has made the advancement [Isn't It Iron Pick]
+[29May2025 15:39:11.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vikketik has made the advancement [Acquire Hardware]
+[29May2025 15:39:18.305] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vikketik has made the advancement [Diamonds!]
+[29May2025 15:44:06.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Vikketik: Set own game mode to Survival Mode]
+[29May2025 15:44:25.296] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Vikketik lost connection: Disconnected
+[29May2025 15:44:25.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Vikketik left the game
+[29May2025 15:44:48.089] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Nothing changed. The player already is an operator
+[29May2025 15:45:10.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Vikketik no longer a server operator
+[29May2025 15:58:55.424] [IO-Worker-26/ERROR] [net.minecraft.world.level.saveddata.SavedData/]: Could not save data net.neoforged.neoforge.attachment.LevelAttachmentsSavedData@68e805f8
+java.nio.file.AccessDeniedException: .\world\DIM1\data\neoforge_data_attachments.dat6591791224077848766.neoforge-tmp -> .\world\DIM1\data\neoforge_data_attachments.dat
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89) ~[?:?]
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:332) ~[?:?]
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:291) ~[?:?]
+	at java.base/java.nio.file.Files.move(Files.java:1437) ~[?:?]
+	at TRANSFORMER/neoforge@21.1.172/net.neoforged.neoforge.common.IOUtilities.atomicWrite(IOUtilities.java:178) ~[neoforge-21.1.172-universal.jar%23154!/:?]
+	at TRANSFORMER/neoforge@21.1.172/net.neoforged.neoforge.common.IOUtilities.writeNbtCompressed(IOUtilities.java:115) ~[neoforge-21.1.172-universal.jar%23154!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.saveddata.SavedData.lambda$save$0(SavedData.java:44) ~[server-1.21.1-20240808.144430-srg.jar%23153!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:831) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:526) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1575) [?:?]
